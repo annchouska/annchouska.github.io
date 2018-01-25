@@ -1,0 +1,207 @@
+body {
+    background:  #FAF0E6;
+}
+
+.header {
+    font-size: 22px;
+    font-style: italic;
+    height: 180px;
+    position: relative;
+    background-image:url(img/fon2.jpg);
+     }
+.header li {
+    list-style-type: none;
+}
+
+input[type="text"] {
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    color: brown;
+    width: 200px;
+    height: 20px;
+    background-color: bisque;
+    font-size: 13px;
+}
+
+.head {
+    color:darkblue;
+    font-size: 22px;
+    font-weight: 400;
+    background: #eaeaea;
+  }
+
+.short {
+    color: #707070;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 18px;
+}
+
+.descr {
+    color: #484343;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+}
+.inf {
+    color: blueviolet;
+    font-weight: 900;
+    font-size: 18px;
+    list-style-image: url(img/fa.png);
+    top: 100px;
+    overflow: hidden;
+    }
+.im {
+     margin-left: 10px;
+    float: left;
+    margin-right: 20px;
+}
+textarea {
+    background-color: azure;
+    color: darkcyan;
+}
+.cont {
+    border: 3px solid brown;
+background-color: bisque;
+    width:400px;
+}
+.header li a:hover {
+    color: darkorange;
+}
+.logo {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 30px;
+    
+}
+.title {
+    font-size: 30px;
+    font-style: italic;
+    color: darkgreen;
+    margin-left: 320px;
+       }
+.center-img {
+    display: block;
+    margin: 0 auto;
+      
+}
+.imgs {
+    margin-right: 30px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+input[type="email"]:focus {
+    background-color: aquamarine;
+    color: darkblue;
+    }
+input[type="text"],textarea,input[type="email"]  {
+text-transform: capitalize;
+}
+.noborder {
+    border: 0px;
+}
+.outline {
+    outline: 5px solid #778899;
+    padding: 1px;
+        }
+.outline:hover {
+    outline: 0px;
+    }
+.first-letter:first-letter{
+    font-size: 20px;
+    font-family: Arial serif;
+    color: blue;
+}
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+.header div {
+    width: 250px;
+    text-align: center;
+    border: 2px solid #905BAE;
+    border-radius: 5px;
+    border-style: dotted;
+    margin: 5px;
+   display: inline-block;
+       }
+.header div:first-child {
+    margin-left: 160px;
+}
+h1 {
+    color: chocolate;
+}
+.zakaz {
+   color: brown;
+    font-size: 20px;
+}
+.brother {
+    height: 200px;
+    clear: both;
+}
+.footer {
+    height: 140px;
+    background-color: bisque;
+    text-align: right;
+    padding: 30px 100px 0 0;
+    margin-top: -200px;
+}
+.main img {
+    margin: 15px;
+}
+.footer p{
+    position: absolute;
+    right: 20px;
+    top: 15px;
+}
+.buy {
+   width: 150px;
+    height: 50px;
+    font-size: 20px;
+    color: darkblue;
+        background-color: bisque;
+  border-radius: 10px;
+    border: 3px dotted brown;
+  }
+.buy:hover {
+    color: deepskyblue;
+}
+.buy:active {
+   background-color:burlywood;
+}
+.clear {
+    clear: both;
+}
+.tov1, .tov2 {
+    width: 500px;
+    height: 400px;
+    float: left;
+      }
+.nametov {
+      font-size: 20px;
+}
+.nametov p {
+margin-right: 50px;
+}
+.opis:hover {
+    color: darkorange;
+}
+.contacts {
+    margin-bottom: 20px;
+    width: 1000px;
+}
+.best {
+    color: darkslateblue;
+}
+.ono {
+    clear: both;
+    text-align: justify;
+    background-color: azure;
+}
+.short-descr a {
+    margin-right: 20px;
+}
