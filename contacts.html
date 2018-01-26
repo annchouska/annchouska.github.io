@@ -4,79 +4,51 @@
 <head>
     <meta charset="UTF-8">
     <title> Контакты</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
+    <link rel="stylesheet" type="text/css" href="style.css"> </head>
 
 <body>
-    <div class="container"> 
-        <div class="header">
-                  <img src="img/logo.jpg" class="logo">
-     <span class="title">Книжный магазин "Книгоежка"  </span>
-    <ul>
-       <div> <li> <a href="index.html"> Главная страница </a>
-             </li>  </div>
-    <div>    <li> <a href="catalog.html"> Каталог</a>
-             </li>  </div>
-    <div>    <li> <a href="contacts.html">Контакты</a>
-            </li>  </div>
-    </ul>
+    <div class="container">
+        <div class="content">
+            <div class="header">
+                <a href="index.html"> <img src="img/logo.jpg" class="logo" alt="logo"> </a>
+                <ul>
+                    <li> <a href="index.html"> Главная страница </a> </li>
+                    <li> <a href="catalog.html"> Каталог</a> </li>
+                    <li> <a href="contacts.html">Контакты</a> </li>
+                </ul>
+                <h3> Книгоежка - читай и наслаждайся! </h3> </div>
+            <h1> Для заказа книги заполните анкету: </h1>
+            <div class="form">
+                <form action="#"> Имя:
+                    <input type="text" size="20" placeholder="Введите имя">
+                    <br> Номер телефона:
+                    <input type="text" size="30" placeholder="+291234567">
+                    <br> Или электронный адрес:
+                    <input type="text" size="30" placeholder="Введите электронную почту">
+                    <br> Текст сообщения
+                    <br>
+                    <textarea name="message"> </textarea>
+                    <br> Я хочу получать информацию о проходящих акциях и скидках в книжном магазине "Книгоежка"
+                    <br> Да
+                    <input type="radio" name="inf" checked> Нет
+                    <input type="radio" name="inf">
+                    <br>
+                    <input type="submit" value="Отправить данные">
+                    <input type="reset" value="Отменить"> </form>
+            </div>
+            <div class="contacts">
+                <h2> Наши контакты  </h2>
+                <ol class="cont">
+                    <li> Телефон: <strong>+375291302199  </strong> </li>
+                    <li> Электронная почта: <strong>knigoeshka@tut.by    </strong> </li>
+                    <li> Адрес: <strong> Беларусь, г. Минск, ул. Брест-Литовская, 9  </strong></li>
+                    <li> Мы на карте: </li>
+                </ol>
+            </div>
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ab64b722bd38e4843f17e033337428295dac7b3bfc151b63da4df4bf6d81479c7&amp;source=constructor" width="500" height="400" style="display: block; width: 100%; height: 374px;"></iframe>
         </div>
-    <hr>
-    <div class="form">
-           <h2>  Книгоежка - читай и наслаждайся! </h2>
-        <h1>Контакты</h1>
-        <h2>СВЯЖИТЕСЬ С НАМИ </h2>
-    <h4> Для заказа книги заполните анкету: </h4>
-    <form action="#"> Имя:
-        <input  type="text" size="20" placeholder="Введите имя">
-        <br> Номер телефона:
-        <input  type="text" size="30" placeholder="+291234567">
-        <br> Или электронный адрес:
-        <input  type="email" size="30" placeholder="Введите электронную почту">
-        <br> Текст сообщения
-        <br>
-        <textarea cols="40" rows="5" name="message"> </textarea>
-        <h4> Пройдите наш быстрый опрос и получите 10%-ную скидку на покупку книг!  </h4> Ваш пол
-        <br>
-        <input type="radio" name="sex" checked> Мужчина
-        <input type="radio" name="sex">Женщина
-        <br> Возраст
-        <br>
-        <input type="radio" name="age">до 20 лет
-        <input type="radio" name="age">20-35 лет
-        <input type="radio" name="age">35-55 лет
-        <input type="radio" name="age">более 55 лет
-        <br> Вы предпочитаете (выберите ваши варианты):
-        <br> Классическую литературу
-        <input type="checkbox">
-        <br> Современную литературу
-        <input type="checkbox">
-        <br> Русскую литературу
-        <input type="checkbox">
-        <br> Зарубежную литературу
-        <input type="checkbox">
-        <br> Я хочу получать информацию о проходящих акциях и скидках в книжном магазине "Книгоежка"
-        <br> Да
-        <input type="radio" name="inf" checked> Нет
-        <input type="radio" name="inf">
-        <br>
-        <input type="submit" value="Отправить данные">
-        <input type="reset" value="Отменить"> </form>
-        </div>
-    <div class="contacts"> <h2> Наши контакты  </h2>
-    <ol class="cont">
-        <li> Телефон: <strong>+375291302199  </strong> </li>
-        <li> Электронная почта: <strong>knigoeshka@tut.by    </strong> </li>
-        <li> Адрес: <strong> Беларусь, г. Минск, ул. Брест-Литовская, 9  </strong></li>
-        <li> Мы на карте: </li>
-    </ol>
-            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ab64b722bd38e4843f17e033337428295dac7b3bfc151b63da4df4bf6d81479c7&amp;source=constructor" width="500" height="400" frameborder="0" style="display: block; width: 100%; height: 374px;"></iframe>
-                 </div>
-        <div class="brother"></div>
-    <div class="footer">
-       © Все права защищены 
-       </div>
-        </div>
+        <div class="footer"> © Все права защищены </div>
+    </div>
 </body>
 
 </html>
